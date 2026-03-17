@@ -22,7 +22,7 @@ body {
 
 ## Local Access
 
-Also served via Caddy at `http://localhost/theme/everforest-dark.css`.
+Also available locally via Caddy reverse proxy at `/theme/everforest-dark.css`.
 
 ## Palette
 
