@@ -10,14 +10,14 @@
  */
 
 :root {
-  /* ── Backgrounds ── */
-  --theme-bg-deep:    #1e2326;  /* bg_dim  — deepest (headers, footers, bars) */
-  --theme-bg:         #272e33;  /* bg0     — main background */
-  --theme-bg-surface: #2e383c;  /* bg1     — raised surface (panels, inputs) */
-  --theme-bg-overlay: #374145;  /* bg2     — overlays, hover states */
-  --theme-bg-border:  #414b50;  /* bg3     — borders, dividers */
-  --theme-bg-muted:   #495156;  /* bg4     — muted UI chrome */
-  --theme-bg-subtle:  #4f5b58;  /* bg5     — subtle highlights */
+  /* ── Backgrounds (shifted to match iTerm2 bg_dim base) ── */
+  --theme-bg-deep:    #191d20;  /* darker than bg_dim — headers, footers, bars */
+  --theme-bg:         #1e2326;  /* bg_dim  — main background (matches iTerm2) */
+  --theme-bg-surface: #272e33;  /* bg0     — raised surface (panels, inputs) */
+  --theme-bg-overlay: #2e383c;  /* bg1     — overlays, hover states */
+  --theme-bg-border:  #374145;  /* bg2     — borders, dividers */
+  --theme-bg-muted:   #414b50;  /* bg3     — muted UI chrome */
+  --theme-bg-subtle:  #495156;  /* bg4     — subtle highlights */
 
   /* ── Semantic backgrounds ── */
   --theme-bg-visual:  #4c3743;  /* selection */
