@@ -1,0 +1,81 @@
+/*
+ * Everforest Hard Dark — Centralized CSS Custom Properties
+ * Source: sainnhe/everforest (hard dark variant)
+ * Canonical URL: https://devinmlowe.github.io/theme-everforest/everforest-dark.css
+ *
+ * Usage:
+ *   <link rel="stylesheet" href="https://devinmlowe.github.io/theme-everforest/everforest-dark.css">
+ *   background: var(--theme-bg);
+ *   color: var(--theme-fg);
+ */
+
+:root {
+  /* ── Backgrounds ── */
+  --theme-bg-deep:    #1e2326;  /* bg_dim  — deepest (headers, footers, bars) */
+  --theme-bg:         #272e33;  /* bg0     — main background */
+  --theme-bg-surface: #2e383c;  /* bg1     — raised surface (panels, inputs) */
+  --theme-bg-overlay: #374145;  /* bg2     — overlays, hover states */
+  --theme-bg-border:  #414b50;  /* bg3     — borders, dividers */
+  --theme-bg-muted:   #495156;  /* bg4     — muted UI chrome */
+  --theme-bg-subtle:  #4f5b58;  /* bg5     — subtle highlights */
+
+  /* ── Semantic backgrounds ── */
+  --theme-bg-visual:  #4c3743;  /* selection */
+  --theme-bg-error:   #493b40;  /* error / deleted */
+  --theme-bg-warn:    #45443c;  /* warning */
+  --theme-bg-success: #3c4841;  /* success / added */
+  --theme-bg-info:    #384b55;  /* info / changed */
+  --theme-bg-hint:    #463f48;  /* hint / merge */
+
+  /* ── Foreground / Text ── */
+  --theme-fg:         #d3c6aa;  /* primary text */
+  --theme-fg-muted:   #9da9a0;  /* grey2 — secondary text */
+  --theme-fg-dim:     #859289;  /* grey1 — tertiary text */
+  --theme-fg-faint:   #7a8478;  /* grey0 — comments, inactive */
+  --theme-fg-ghost:   #5b6560;  /* derived — very faint (counters, timestamps) */
+
+  /* ── Accent Colors ── */
+  --theme-red:        #e67e80;  /* errors, alerts, deletions */
+  --theme-orange:     #e69875;  /* constants, warnings, person entities */
+  --theme-yellow:     #dbbc7f;  /* types, highlights, selection markers */
+  --theme-green:      #a7c080;  /* strings, success, primary accent */
+  --theme-aqua:       #83c092;  /* booleans, specials, teal/cyan role */
+  --theme-blue:       #7fbbb3;  /* functions, links, info, primary interactive */
+  --theme-purple:     #d699b6;  /* keywords, imports, concepts */
+
+  /* ── Entity Type Colors (graph nodes, badges) ── */
+  --theme-node-project:    #e67e80;  /* red — projects */
+  --theme-node-tool:       #7fbbb3;  /* blue — tools */
+  --theme-node-technology: #a7c080;  /* green — technology */
+  --theme-node-person:     #e69875;  /* orange — people */
+  --theme-node-concept:    #d699b6;  /* purple — concepts */
+  --theme-node-file:       #7a8478;  /* grey — files */
+  --theme-node-repo:       #83c092;  /* aqua — repos */
+  --theme-node-default:    #4f5b58;  /* bg5 — fallback */
+
+  /* ── Word Cloud / Multi-color Palette (12 slots) ── */
+  --theme-palette-1:  #e67e80;  /* red */
+  --theme-palette-2:  #7fbbb3;  /* blue */
+  --theme-palette-3:  #a7c080;  /* green */
+  --theme-palette-4:  #e69875;  /* orange */
+  --theme-palette-5:  #d699b6;  /* purple */
+  --theme-palette-6:  #83c092;  /* aqua */
+  --theme-palette-7:  #dbbc7f;  /* yellow */
+  --theme-palette-8:  #9da9a0;  /* grey2 */
+  --theme-palette-9:  #d3c6aa;  /* fg */
+  --theme-palette-10: #859289;  /* grey1 */
+  --theme-palette-11: #b6c19e;  /* green-light (derived) */
+  --theme-palette-12: #c1a8b4;  /* purple-muted (derived) */
+
+  /* ── Interactive States ── */
+  --theme-active:     #a7c080;  /* green — active tab, live indicator */
+  --theme-hover:      #414b50;  /* bg3 — hover background */
+  --theme-focus:      #7fbbb3;  /* blue — focus ring, input focus border */
+  --theme-selected:   #dbbc7f;  /* yellow — selected node stroke */
+}
+
+/* ── Base Reset ── */
+body {
+  background: var(--theme-bg);
+  color: var(--theme-fg);
+}
